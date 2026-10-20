@@ -1,0 +1,42 @@
+{
+  "name": "wingdings-unicode-map",
+  "version": "0.1.0",
+  "description": "Convert text to and from the Unicode symbols that correspond to classic Wingdings glyphs.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    },
+    "./wingdings.json": "./wingdings.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "wingdings.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "wingdings",
+    "webdings",
+    "unicode",
+    "symbols",
+    "font",
+    "translator"
+  ],
+  "homepage": "https://wingdings.app/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersejinkujin/wingdings-unicode-map.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
